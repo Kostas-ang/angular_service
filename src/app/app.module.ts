@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { StructuralDirectivesModule } from './structural-directives/structural-directives.module';
+import { CountriesComponent } from './countries/countries/countries.component';
+import { CountriesModule } from './countries/countries.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +12,7 @@ import { StructuralDirectivesModule } from './structural-directives/structural-d
   ],
   imports: [
     BrowserModule,
+    CountriesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
